@@ -59,7 +59,7 @@ function startup() {
     questionEl.textContent = "Welcome to the Quiz";
     //creates and attaches the test description to the div with the class "questionholder"
     var quizDescription = document.createElement("p");
-    quizDescription.textContent = "Please press the 'Start Quiz' button to begin the quiz! you have 75 seconds to answer 4 quesions :)";
+    quizDescription.textContent = "Please press the 'Start Quiz' button to begin the quiz! you have 75 seconds to answer 5 quesions :) Your score will be the time left on your timer but WATCH OUT!! Each wrong answer will minus 15 seconds from your timer!  ";
     questionBox.appendChild(quizDescription);
     //creates and attaches the button to start the quiz to the index.html doc
     var startQuizButton = document.createElement('button');
