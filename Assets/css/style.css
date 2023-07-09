@@ -1,0 +1,92 @@
+/* Sets colour variables for later use */
+:root {
+    --vanilla: #FFF8AD;
+    --sandybrown: #FFAA5A;
+    --bittersweet: #FF785A;
+    --eerie: #191919;
+    --sunglow: #FFD25A;
+}
+
+/* base styling for the body */
+body {
+    font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+    margin: 2em;
+    background-color: var(--vanilla);
+}
+
+/* styling for the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    color: var(--eerie);
+}
+
+button {
+    border-style: none;
+    padding: .5em;
+    border-radius: 8px;
+    background-color: var(--bittersweet);
+}
+button:hover{
+    cursor: pointer;
+}
+
+
+li {
+    padding: .5em;
+    width: auto;
+}
+
+header a {
+    color: var(--eerie);
+    text-decoration: none;
+}
+
+p {
+    font-weight: bold;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#answersButton {
+    flex-direction: column;
+    display: flex;
+    align-self: flex-start;
+    border-style: none;
+}
+
+
+/* Styling for high scores html page */
+
+#highscore {
+    display: flex;
+    margin-top: 5em;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#highscore h1 {
+    font-size: xx-large;
+}
+
+#goBack a{
+    text-decoration: none;
+    color: var(--eerie);
+}
+
+#goBack a:visited{
+    text-decoration: none;
+    color: var(--eerie);
+}
+
+.highscoreList {
+    background-color: var(--sunglow);
+    width: 20%;
+    font-size: larger;
+    font-weight: bold;
+}
