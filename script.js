@@ -53,7 +53,7 @@ var quizQA = [
 
 
 //runs code if on the index.html page
-if (pathname == "/index.html"){
+if (pathname == "/Week-4-challenge/index.html"){
 //sets up the page for first load
 function startup() {
     questionEl.innerHTML = "";
@@ -193,7 +193,7 @@ startup();
 }
 
 //runs code if on highscore.html
-if (pathname == "/highscore.html"){
+if (pathname == "/Week-4-challenge/highscore.html"){
 // scripting for highscore page
 highscoreBox.addEventListener("click", function(event){
     var element = event.target;
