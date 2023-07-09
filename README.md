@@ -14,10 +14,10 @@ Created the JS for a password generator, witht he ability to choose a length of 
 ## Installation
 
 run the site either on you own hosting or on the link here:
-    https://ghostdads.github.io/Week-3-challenge/
+    https://ghostdads.github.io/Week-4-challenge/
 
 ## Usage
-
+s
 click on the generate passwrod button, then answer the prompts as they appear.
 After you can copy the password from the box with the backing 'your secure password'.
 
