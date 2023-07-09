@@ -26,6 +26,7 @@ var highscores = [];
 var highscoreinput = [];
 let timeInterval;
 var pathname = location.pathname;
+console.log(location.pathname);
 
 var quizQA = [
     { question: "What does JS stand for?",
