@@ -177,7 +177,7 @@ answersEl.addEventListener("click", function(event) {
         console.log("wrong!!");
         commentEl.textContent = "Wrong!";
         setTimeout(timeOut, 1000);
-        timeLeft -= 5;
+        timeLeft -= 15;
         x++;
         nextQuestion(x);
     }

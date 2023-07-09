@@ -14,20 +14,25 @@ Created the JS for a password generator, witht he ability to choose a length of 
 ## Installation
 
 run the site either on you own hosting or on the link here:
-    https://ghostdads.github.io/Week-4-challenge/
+    https://ghostdads.github.io/Week-4-challenge/index.html
 
 ## Usage
-s
-click on the generate passwrod button, then answer the prompts as they appear.
-After you can copy the password from the box with the backing 'your secure password'.
 
-<img src="./assets/images/screenshot.png" alt="picture of the webpage" />
+click on the start quiz button to start the quiz. 
 
+<img src="./assets/images/start.png" alt="picture of the webpage on initial load" />
+answer the questions by clicking on the buttons labed with different answers.
+
+<img src="./assets/images/questions.png" alt="picture of the webpage during quiz" />
+
+once you reach the end of the questions or reach timer 0, enter your initials, press eneter and you can view the high scores.
+press the clear scores button to empty local storage and clear out the list.
+
+<img src="./assets/images/scores.png" alt="picture of the webpage on the highscores screen" />
 
 ## Credits
 
-html + CSS done by bootcamp
-JS done by me (Alexander Babic)
+html, CSS, and JS done by me (Alexander Babic)
 
 ## License
 

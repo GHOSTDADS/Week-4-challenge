@@ -31,6 +31,9 @@ button:hover{
     cursor: pointer;
 }
 
+main{
+    text-align: center;
+}
 
 li {
     padding: .5em;
@@ -50,12 +53,14 @@ p {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
+    width: 50%;
 }
 
 #answersButton {
     flex-direction: column;
     display: flex;
-    align-self: flex-start;
+    align-self: center;
     border-style: none;
 }
 
