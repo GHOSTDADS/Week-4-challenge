@@ -20,15 +20,16 @@ run the site either on you own hosting or on the link here:
 
 click on the start quiz button to start the quiz. 
 
-<img src="./assets/images/start.png" alt="picture of the webpage on initial load" />
+<img src="./Assets/images/start.png" alt="picture of the webpage on initial load" />
+
 answer the questions by clicking on the buttons labed with different answers.
 
-<img src="./assets/images/questions.png" alt="picture of the webpage during quiz" />
+<img src="./Assets/images/questions.png" alt="picture of the webpage during quiz" />
 
 once you reach the end of the questions or reach timer 0, enter your initials, press eneter and you can view the high scores.
 press the clear scores button to empty local storage and clear out the list.
 
-<img src="./assets/images/scores.png" alt="picture of the webpage on the highscores screen" />
+<img src="./Assets/images/scores.png" alt="picture of the webpage on the highscores screen" />
 
 ## Credits
 
